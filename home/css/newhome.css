@@ -1,0 +1,206 @@
+*{
+	font-family: 'Karla', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: black;
+	color: white;
+	
+	font-weight: 10px;
+}
+.header-text
+{
+	left: 50%;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 50px;
+}
+
+.header-text:after
+{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 3px;
+	background-color: cyan;
+	left: 43%;
+}
+#video{
+	width: auto;
+	padding-right: 0%;
+	margin-right: 0%;
+	overflow: hidden;
+	object-fit: fill;
+
+	
+	
+	
+}
+
+#video video{
+	width: 100%;
+	
+	height: auto;
+
+
+}
+#album
+{
+	margin: 100px 300px 100px 400px;
+	box-shadow: 4px 8px 6px 8px white;
+	padding-left: 2%;
+
+}
+#album:hover{
+	transform: scale(1.02);
+}
+.card
+{
+	width: 300px;
+	height: 350px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 20px 20px;
+	transition: transform 0.5;
+	background-position: center;
+	background-size: cover;
+}
+.card:hover
+{
+	transform:translateY(-20px) ;
+}
+
+
+a.button 
+{
+	text-align: center;
+  outline: none;
+  display: block;
+  border: solid 1px cyan;
+  font-size: 20px;
+  font-weight: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-bottom: 3%;
+	width: 20%;
+}
+
+a.button:hover,
+a.button:focus{
+    background: darkcyan;
+    color: black;
+}
+
+a.button:active{
+    background: #000000;
+    color: white;
+}
+
+.column 
+{
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after
+ {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.columnvideo
+ {
+  float: left;
+  width: 23%;
+  margin-left: 7%;
+  margin-top: 3%;
+  
+  display: flex;
+  justify-content: center;
+ 
+}
+.card1
+{
+
+  text-align: center;
+  border-radius: 20px;
+
+
+}
+.card1 video{
+  border-radius: 40px;
+  border: 2px solid white;
+}
+
+.card1 video[poster]
+{
+height:100%;
+width:100%;
+}
+#events
+{
+padding-top: 5%;
+margin-left: 4%;
+padding-left: 8%;
+}
+#music_platforms{
+	 display: flex;
+	 justify-content: center;
+} 
+
+#music_platforms td
+{
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#explore
+{
+	left: 50%;
+	justify-content: center;
+	display: flex;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+h5
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+.album-content{
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+	
+
+}
+.album-content img{
+	margin-right: 10px;
+	padding-right: 20px;
+}
+
+#view{
+	position:absolute;
+	bottom: 0;
+	
+	margin-left: 280px;
+
+	
+}
+#album{
+	position: relative;
+	bottom: 0;
+	
+	padding-bottom: 70px;
+	
+}

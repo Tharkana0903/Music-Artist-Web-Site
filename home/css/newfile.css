@@ -1,0 +1,48 @@
+/*Query Form*/
+
+*{
+	font-family: 'Karla', sans-serif;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: black;
+	color: white;
+	overflow-x: hidden;
+	font-weight: 10px;
+}
+.header-text
+{
+	left: 50%;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 50px;
+}
+
+.header-text:after
+{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 3px;
+	background-color: cadetblue;
+	left: 43%;
+}
+
+html{
+
+	scroll-behavior: smooth;
+}
+.background-image{
+		       
+			   background-size: cover;
+			   background-repeat: no-repeat;
+			   height: 100vh; 
+}
+
+
+/* navbar styling */
+
+
+
+/*----- page editor -----*/

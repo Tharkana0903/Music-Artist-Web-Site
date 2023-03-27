@@ -1,0 +1,146 @@
+*{
+	font-family: 'Karla', sans-serif;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: black;
+	color: white;
+}
+.backtotop
+{
+  float: right;
+}
+
+#instagram
+{
+	fill:none;
+	stroke:#fff;
+	stroke-miterlimit:10;
+	stroke-width:4px;
+}
+#instagram:hover rect, #instagram:hover circle
+{
+	stroke: #EA0C5F;
+}
+
+#facebook:hover rect
+{
+	fill:#3B5998;
+
+}
+
+#youtube:hover rect
+{
+	fill:#FF0000; 
+}
+
+#twitter:hover path
+{
+	fill:#00ACEE; 
+}
+#spotify:hover circle
+{
+	fill:#1ed760; 
+}
+.secondpart
+{
+	background-color: #262525;
+}
+
+.buttonf{
+	text-align: center;
+  outline: none;
+  display: block;
+  border: solid 1px cyan;
+  font-size: 16px;
+  padding: 4%;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus{
+    background: darkcyan;
+    color: black;
+}
+
+.button:active{
+    background: #000000;
+    color: white;
+}
+#devbutton
+{
+	font-size: 30px;
+	font-weight: 80px;
+}
+
+#logoimg
+{
+	width: 25%;
+	padding-bottom: 10px;
+  margin-left: 40%;
+
+}
+
+.column1 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.row1
+{
+	background-color: #0f0e0e;
+}
+
+.column2 {
+  float: left;
+  width: 60%;
+  padding-top:30px ;
+   margin-left: 20px;
+}
+.column3 {
+  float: right;
+  width: 25%;
+  margin-right: 20px;
+}
+
+.column2 a 
+{
+	padding: 15px;
+}
+
+.column4 {
+  float: left;
+  padding: 10px;
+  margin-left: 3%;
+}
+.row2
+{
+	background-color: #262525;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.column5 {
+  float: right;
+  width: 10%;
+  margin-right: 3%;
+}
+a 
+{
+  color: white;
+  text-decoration: none;
+}

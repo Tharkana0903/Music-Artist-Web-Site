@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Coming Soon Page- main web page</title>
+    <link href="descign.css" rel="stylesheet" type="text/css">
+    <link href="css/countDown.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="refresh" content="4;url=../../home/newhome.html">
+
+</head>
+<body>
+    
+    <div class="container">
+        <img src="images/download.jpg" class="logo">
+
+            <div class="content">
+                <p>Wait For The Main Page</p>
+                <h1>We're <span> Launching</span> soon</h1>
+
+                <p id="countdown"></p>
+                   
+
+
+                
+                <h2>GROUP MEMBERS</h2><br>
+                <p>1.	Shasindu Weerasekara...student 1 _ w1912868</p>
+                <p>2.	Avindya Jayangi.............student 2 _ w1912938</p>   
+                <p>3.   Nirusha Sirimanna..........student 3 _ w1912854</p> 
+                <p>4.	Tharkana Bandara...........student 4 _ w1903065</p>              
+            </div>
+            <img src="images/rocket.png" class="rocket">
+        </div>
+        
+
+<script>
+    const starting_time_minute = 4/60;
+    let time = starting_time_minute * 60;
+    
+    let count_down_element = document.getElementById("countdown");
+
+    setInterval(updateCountdown, 1000);
+
+    function updateCountdown(){
+        if(time == 1){
+            nextPage();
+        }
+
+        let minutes = Math.floor(time/60);
+        let seconds = time % 60;
+        seconds = seconds < 10 ? '0'+ seconds:seconds;
+        minutes = minutes < 10 ? '0'+ minutes:minutes;
+        let display = minutes + ": " +seconds;
+        count_down_element.innerHTML = display;
+        time--;
+    }
+</script>
+
+</body>
+</html>

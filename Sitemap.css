@@ -1,0 +1,204 @@
+
+  .content{
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 200px; 
+    display: inline-block;
+  }
+  /* Place */
+  
+  .home {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 21%;
+    right: 600px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .store {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 44.5%;
+    right: 1200px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .gallery {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 44.5%;
+    right: 900px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .additionalpage {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 44.5%;
+    right: 600px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .quiz {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 44.5%;
+    right: 300px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .aboutUs {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 44.5%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .site {
+    fill: transparent;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 6px;
+    stroke: cadetblue;
+  }
+  
+  
+  /*Inside About Us*/
+  
+  .shasindu {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 59.5%;
+    right: 268px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  .nirusha {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    right: 268px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  .avindya {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 81%;
+    right: 268px;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  .tharkana {
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 91.5%;
+    right: 268px;
+    transform: translateY(-50%);
+    width: 320px;
+  } 
+  
+  /* Names Edit */
+  
+  .names {
+    color: #fff;
+    font-family: "Bahnschrift";
+    font-size: 22px;
+    letter-spacing: 8px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    top: -48px;
+  }
+ 
+  @keyframes draw {
+    0% {
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 8px;
+    }
+    100% {
+      stroke-dasharray: 760;
+      stroke-dashoffset: 0;
+      stroke-width: 4px;
+    }
+  }
+  
+  .home:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .store:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .gallery:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .additionalpage:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .quiz:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .aboutUs:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+
+  /*Inside About Us*/
+  .shasindu:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .nirusha:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .avindya:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  .tharkana:hover .site {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
+  /*Lines*/
+
+  .downLine2{
+    position: absolute;
+    top: 48.4%;
+    right: 150px;
+    stroke: cadetblue;
+    stroke-width:3px;
+  }
+  .downMain{
+    position: absolute;
+    stroke: cadetblue;
+    top: 23.7%;
+    right: 170px;
+    stroke-width:3px;
+  }
+  
+  
+  
